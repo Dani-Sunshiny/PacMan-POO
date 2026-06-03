@@ -166,7 +166,7 @@ Representa la estructura estática del sistema mostrando las clases principales,
 <div align="center">
 
 ### Figura 1. Diagrama de Clases
-<img src="Diagramas UML - PAC MAN/Diagrama de Clases-PAC MAN.png" >
+<img src="Diagramas UML - PAC MAN/Diagrama de Clases - PAC MAN.png" >
 </div>
 
 ---
