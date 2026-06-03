@@ -60,6 +60,60 @@ El juego ha sido diseñado para ser flexible, permitiendo dos esquemas de contro
 
 ---
 
+## 📁 Estructura del Proyecto
+
+```text
+src/
+├── Controlador/       # Lógica del juego, colisiones y gestión de estados
+├── Vista/             # Renderizado en Canvas, gestión de imágenes y UI
+├── Modelo/            # Entidades (Pac-Man, Fantasmas, Pellets, Laberinto)
+└── PAC_MAN.java       # Punto de entrada principal (Main)
+```
+# Esto es lo que va adentro
+```text
+src/
+│
+├── Modelo/
+│   ├── Juego.java
+│   ├── PacMancito.java
+│   ├── Fantasma.java
+│   ├── FantasmaAleatorio.java
+│   ├── FantasmaPerseguidor.java
+│   ├── Pellet.java
+│   ├── PowerUp.java
+│   ├── TipoDePotenciador.java
+│   ├── Nivel.java
+│   ├── FabricaNiveles.java
+│   ├── Laberinto.java
+│   ├── EstadoJuego.java
+│   ├── MoviDireccion.java
+│   └── Entidad.java
+│
+├── Controlador/
+│   └── ControladorJuego.java
+│
+├── Vista/
+│   └── VistaPacMan.java
+│
+├── ImagenesYGifs/
+│   ├── PacAbiDere.png
+│   ├── PacAbiIzq.png
+│   ├── PacAbiArriba.png
+│   ├── PacAbiAbajo.png
+│   ├── PaxCerrDere.png
+│   ├── PaxCerrIzq.png
+│   ├── PaxCerrArriba.png
+│   ├── PaxCerrAbajo.png
+│   ├── Fantasma.png
+│   ├── Pellet.png
+│   └── fresa.jpg
+│
+└── PAC_MAN.java
+```
+
+
+---
+
 ## 📊 Estado del Desarrollo
 
 Este es el progreso actual de las funcionalidades implementadas en el motor de juego:
@@ -78,17 +132,6 @@ Este es el progreso actual de las funcionalidades implementadas en el motor de j
 
 ---
 
-
-## 📁 Estructura del Proyecto
-
-```text
-src/
-├── Controlador/       # Lógica del juego, colisiones y gestión de estados
-├── Vista/             # Renderizado en Canvas, gestión de imágenes y UI
-├── Modelo/            # Entidades (Pac-Man, Fantasmas, Pellets, Laberinto)
-└── PAC_MAN.java       # Punto de entrada principal (Main)
----
-
 ## 🛠️ Resolución de Problemas Comunes
 
 Si encuentras dificultades al ejecutar el juego, revisa esta guía rápida:
@@ -101,3 +144,67 @@ Si al presionar las teclas el juego no se mueve, es probable que el `Canvas` hay
 Si obtienes errores de tipo `JavaFX runtime components are missing`:
 * **Causa:** JavaFX ya no está incluido en el JDK estándar desde la versión 11.
 * **Solución:** Asegúrate de tener los módulos de JavaFX configurados en los argumentos de la VM de tu IDE (`--module-path /ruta/a/javafx/lib --add-modules javafx.controls,javafx.fxml`).
+
+---
+#  Diagramas del Sistema
+
+Para el diseño y documentación del proyecto se elaboraron diversos diagramas UML que permiten comprender la estructura, comportamiento e interacción de los componentes del videojuego Pac-Man desarrollado bajo la arquitectura MVC.
+
+---
+
+## 📋 Diagrama de Clases
+
+Representa la estructura estática del sistema mostrando las clases principales, sus atributos, métodos y relaciones.
+
+### Objetivos
+
+- Visualizar la organización general del proyecto.
+- Identificar relaciones entre clases.
+- Comprender la distribución de responsabilidades dentro del patrón MVC.
+- Mostrar la estructura completa del sistema.
+
+<div align="center">
+
+### Figura 1. Diagrama de Clases
+<img src="Diagramas/Diagrama de Clases-PACMAN.png" >
+</div>
+
+---
+
+## 🔄 Diagrama de Secuencia
+
+Representa el flujo de comunicación entre los objetos del sistema durante la ejecución de una funcionalidad específica.
+
+### Objetivos
+
+- Mostrar la interacción entre Vista, Controlador y Modelo.
+- Representar el ciclo principal de ejecución del juego.
+- Visualizar el intercambio de mensajes entre los componentes.
+
+<div align="center">
+
+### Figura 2. Diagrama de Secuencia
+<img src="Diagramas/Diagrama de Secuencia PACMAN.png" >
+
+</div>
+
+---
+
+## 👤 Diagrama de Casos de Uso
+
+Representa las funcionalidades que el sistema ofrece al jugador y la manera en que este interactúa con ellas.
+
+### Objetivos
+
+- Identificar las acciones disponibles para el usuario.
+- Mostrar los requerimientos funcionales principales.
+- Definir la interacción entre el jugador y el sistema.
+
+<div align="center">
+
+### Figura 3. Diagrama de Casos de Uso
+<img src="Diagramas/Diagrama de Casos de Uso PACMAN.png" >
+
+</div>
+
+
