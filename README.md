@@ -35,6 +35,7 @@ El proyecto sigue el patrón **MVC**, lo que permite escalar el juego sin que el
 * **Vista:** Maneja exclusivamente el `Canvas` de JavaFX. Convierte datos en píxeles.
 * **Controlador:** Orquesta la comunicación entre el modelo y la vista, y gestiona el `AnimationTimer`.
 </div>
+
 ---
 ## 🎮 Controles del Juego
 
