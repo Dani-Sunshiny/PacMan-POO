@@ -25,7 +25,7 @@ El proyecto sigue el patrón **MVC**, lo que permite escalar el juego sin que el
 * **Modelo:** Gestiona el estado lógico, coordenadas de la matriz y reglas del juego.
 * **Vista:** Maneja exclusivamente el `Canvas` de JavaFX. Convierte datos en píxeles.
 * **Controlador:** Orquesta la comunicación entre el modelo y la vista, y gestiona el `AnimationTimer`.
-
+</div>
 ---
 
 ## 📁 Estructura del Proyecto
