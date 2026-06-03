@@ -6,6 +6,14 @@
 Este proyecto es una recreación del clásico juego **Pac-Man**, desarrollada en **Java** utilizando el framework gráfico **JavaFX**. El objetivo principal es aplicar conceptos de programación orientada a objetos (POO), arquitectura Modelo-Vista-Controlador (MVC) y manejo de bucles de juego (game loops).
 </div>
 
+---
+## 👥 Equipo de Desarrollo
+
+| Nombre Completo | Código Estudiantil |
+| :--- | :---: |
+| Ana Sofía Villalobos Pérez | 20242020063 |
+| Daniel Antonio Olivares Hinojosa | 20252020016 |
+---
 
 ## 🚀 Características Técnicas
 
