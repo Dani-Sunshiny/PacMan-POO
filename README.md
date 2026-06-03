@@ -124,7 +124,7 @@ Este es el progreso actual de las funcionalidades implementadas en el motor de j
 | **Bucle de Juego (Tick)** | ✅ Completado | Sincronización mediante `1_000_000` (ns) |
 | **Sistema de Movimiento** | ✅ Completado | Basado en rejilla (`TAM_CELDA`) |
 | **Gestión de Pellets** | ✅ Completado | Renderizado con offset de centrado (`+8px`) |
-| **Colisiones** | ✅ En Proceso | Detección de paredes y entidades |
+| **Colisiones** | ✅ Completado | Detección de paredes y entidades |
 | **Inteligencia Artificial** | 🚧 En Proceso | Algoritmos de persecución (Ghost AI) |
 | **Menú de Inicio** | ❌ Pendiente | Interfaz de selección de niveles |
 
