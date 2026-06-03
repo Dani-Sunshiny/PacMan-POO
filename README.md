@@ -12,13 +12,14 @@ Este proyecto es una recreación del clásico juego **Pac-Man**, desarrollada en
 * **Arquitectura MVC:** Separación clara entre la lógica del juego (`Controlador`), la visualización (`Vista`) y el modelo de datos.
 * **Game Loop Robusto:** Implementación de un `AnimationTimer` optimizado.
 * **Sincronización:** Uso de un factor de conversión (`* 1_000_000`) para alinear la lógica (milisegundos) con el reloj del sistema (nanosegundos).
-* El Bucle de Juego (Game Loop)
+* **El Bucle de Juego (Game Loop)
 La sincronización es fundamental. Utilizamos `AnimationTimer` comparando el tiempo del sistema en nanosegundos:
 ```java
 if (now - ultimaEjecucion > VELOCIDAD_JUEGO * 1_000_000) {
     controlador.ejecutarCiclo();
     ultimaEjecucion = now;
     }
+
 * **Renderizado por Capas:** Dibujado eficiente en `Canvas` utilizando un sistema de capas para objetos y personajes.
 
 ---
