@@ -166,7 +166,7 @@ Representa la estructura estática del sistema mostrando las clases principales,
 <div align="center">
 
 ### Figura 1. Diagrama de Clases
-<img src="Diagramas UML - PAC MAN/Diagrama de Clases-PACMAN.png" >
+<img src="Diagramas UML - PAC MAN/Diagrama de Clases-PAC MAN.png" >
 </div>
 
 ---
@@ -184,7 +184,7 @@ Representa el flujo de comunicación entre los objetos del sistema durante la ej
 <div align="center">
 
 ### Figura 2. Diagrama de Secuencia
-<img src="Diagramas UML - PAC MAN/Diagrama de Secuencia PACMAN.png" >
+<img src="Diagramas UML - PAC MAN/Diagrama de Secuencias PACMAN.png" >
 
 </div>
 
