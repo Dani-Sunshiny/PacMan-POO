@@ -203,7 +203,7 @@ Representa las funcionalidades que el sistema ofrece al jugador y la manera en q
 <div align="center">
 
 ### Figura 3. Diagrama de Casos de Uso
-<img src="Diagramas UML-PAC MAN/Diagrama de Casos de Uso PACMAN.png" >
+<img src="Diagramas UML - PAC MAN/Diagrama de Casos de Uso PACMAN.png" >
 
 </div>
 
