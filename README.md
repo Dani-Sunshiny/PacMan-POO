@@ -1,7 +1,7 @@
 # PacMan-POO
 # 🕹️ Proyecto Pac-Man en JavaFX
 
-![Pac-Man Banner](image_015348.png)
+![Pac-Man Banner](PACMAN.png)
 
 Este proyecto es una recreación del clásico juego **Pac-Man**, desarrollada en **Java** utilizando el framework gráfico **JavaFX**. El objetivo principal es aplicar conceptos de programación orientada a objetos (POO), arquitectura Modelo-Vista-Controlador (MVC) y manejo de bucles de juego (game loops).
 
