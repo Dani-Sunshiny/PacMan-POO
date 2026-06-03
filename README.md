@@ -19,6 +19,7 @@ if (now - ultimaEjecucion > VELOCIDAD_JUEGO * 1_000_000) {
     controlador.ejecutarCiclo();
     ultimaEjecucion = now;
     }
+</div>
 
 * **Renderizado por Capas:** Dibujado eficiente en `Canvas` utilizando un sistema de capas para objetos y personajes.
 
