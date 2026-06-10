@@ -84,6 +84,7 @@ El juego es totalmente compatible con el ratón para una navegación fluida:
 ```text
 src/
 ├── Controlador/       # Lógica del juego, colisiones y gestión de estados
+├── ImagenesYGifs      # Guardado de imágenes y estilos de letras
 ├── Vista/             # Renderizado en Canvas, gestión de imágenes y UI
 ├── Modelo/            # Entidades (Pac-Man, Fantasmas, Pellets, Laberinto)
 └── PAC_MAN.java       # Punto de entrada principal (Main)
@@ -144,8 +145,8 @@ Este es el progreso actual de las funcionalidades implementadas en el motor de j
 | **Sistema de Movimiento** | ✅ Completado | Basado en rejilla (`TAM_CELDA`) |
 | **Gestión de Pellets** | ✅ Completado | Renderizado con offset de centrado (`+8px`) |
 | **Colisiones** | ✅ Completado | Detección de paredes y entidades |
-| **Inteligencia Artificial** | 🚧 En Proceso | Algoritmos de persecución (Ghost AI) |
-| **Menú de Inicio** | ❌ Pendiente | Interfaz de selección de niveles |
+| **Inteligencia Artificial** | ✅ Completado | Algoritmos de persecución (Ghost AI) |
+| **Menú de Inicio** | ✅ Completado | Interfaz de selección de niveles |
 
 *Leyenda: ✅ Completado | 🚧 En Proceso | ❌ Pendiente*
 
