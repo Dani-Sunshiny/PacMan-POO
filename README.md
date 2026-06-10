@@ -108,7 +108,15 @@ src/
 │   ├── Fantasma.java
 │   ├── FantasmaAleatorio.java
 │   ├── FantasmaPerseguidor.java
+│   ├── HiloFantasma.java
+│   ├── HiloFrutas.java
+│   ├── HiloMusica.java
+│   ├── HiloPacMancito.java
+│   ├── HiloPellets.java
+│   ├── HiloPotenciadores.java
 │   ├── Pellet.java
+│   ├── Posicion.java
+│   ├── TipoDePotenciador.java
 │   ├── PowerUp.java
 │   ├── TipoDePotenciador.java
 │   ├── Nivel.java
@@ -125,17 +133,48 @@ src/
 │   └── VistaPacMan.java
 │
 ├── ImagenesYGifs/
+│   ├── Ayuda.jpg
+│   ├── Ayuda2.jpeg
+│   ├── CREDITOS1.jpeg
+│   ├── CREDITOS2.jpeg
+│   ├── Derrota.png
+│   ├── Derrota2.jpeg
+│   ├── estilos.css
+│   ├── FantasmaAzulDere.png
+│   ├── FantasmaAzulIzq.png
+│   ├── FantasmaAzulQuieto.png
+│   ├── FantasmaNaranjaDere.png
+│   ├── FantasmaNaranjaIzq.png
+│   ├── FantasmaNaranjaQuieto.png
+│   ├── FantasmaRojoDere.png
+│   ├── FantasmaRojoIzq.png
+│   ├── FantasmaRojoQuieto.png
+│   ├── FantasmaVerdeDere.png
+│   ├── FantasmaVerdeIzq.png
+│   ├── FantasmaVerdeQuieto.png
+│   ├── Fresa.png
+│   ├── FuentePacman.ttf
+│   ├── Manzana.png
+│   ├── MenuPrincipal600x600.png
+│   ├── Naranja.png
+│   ├── PacAbiAbajo.png
+│   ├── PacAbiArriba.png
 │   ├── PacAbiDere.png
 │   ├── PacAbiIzq.png
-│   ├── PacAbiArriba.png
-│   ├── PacAbiAbajo.png
+│   ├── PacRemix.mp3
+│   ├── PAUSA1.jpeg
+│   ├── PAUSA2.jpeg
+│   ├── PaxCerrAbajo.png
+│   ├── PaxCerrArriba.png
 │   ├── PaxCerrDere.png
 │   ├── PaxCerrIzq.png
-│   ├── PaxCerrArriba.png
-│   ├── PaxCerrAbajo.png
-│   ├── Fantasma.png
 │   ├── Pellet.png
-│   └── fresa.jpg
+│   ├── Sandia.png
+│   ├── Fantasma.png
+│   ├── Victoria1.png
+│   ├── Victoria1_1.jpeg
+│   ├── Victoria2.png
+│   ├── Victoria2_2.jpeg
 │
 └── PAC_MAN.java
 ```
