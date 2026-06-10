@@ -1,0 +1,36 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 9/06/2026, 2:55:22 p. m.
+    Author     : User
+*/
+.mi-menu-estilo {
+    -fx-background-color: #2c3e50; 
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+}
+
+/* Cambia el color del título del menú ("PAUSA") a amarillo */
+.mi-menu-estilo .menu .label {
+    -fx-text-fill: #FFFF00; /* Amarillo brillante */
+}
+
+/* Cambia el color de los elementos dentro del menú (iniciar, pausar, etc.) a amarillo */
+.mi-menu-estilo .menu-item .label {
+    -fx-text-fill: #FFFF00; /* Amarillo */
+}
+
+.mi-menu-estilo .menu-item  {
+    -fx-background-color: #2c3e50; 
+}
+
+/* Opcional: Para que al pasar el mouse o estar enfocado se vea mejor */
+.mi-menu-estilo .menu-item:focused {
+    -fx-background-color: #f1c40f; /* Fondo dorado al enfocar */
+}
+
+.mi-menu-estilo .menu-item:focused .label {
+    -fx-text-fill: white; /* Texto oscuro al pasar el mouse para que contraste con el fondo dorado */
+}
