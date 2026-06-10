@@ -45,16 +45,35 @@ El proyecto sigue el patrón **MVC**, lo que permite escalar el juego sin que el
 </div>
 
 ---
-## 🎮 Controles del Juego
+# 🎮 Guía de Controles del Juego
 
-El juego ha sido diseñado para ser flexible, permitiendo dos esquemas de control simultáneos para mayor comodidad del usuario:
+Para una mejor experiencia, el juego permite el uso de múltiples esquemas de control.
 
+## ⌨️ Controles de Movimiento
 | Acción | Teclas (Direccionales) | Teclas (WASD) |
 | :--- | :---: | :---: |
 | **Mover Arriba** | `↑` | `W` |
 | **Mover Abajo** | `↓` | `S` |
 | **Mover Izquierda** | `←` | `A` |
 | **Mover Derecha** | `→` | `D` |
+
+## ⌨️ Controles de Sistema y Acciones
+| Acción | Tecla |
+| :--- | :--- |
+| **Pausar Juego** | `SPACE` |
+| **Reanudar Juego** | `CAPS LOCK` |
+| **Reiniciar Partida** | `BACKSPACE` |
+| **Volver al Menú** | `CTRL` |
+| **Avanzar de Nivel** | `ENTER` |
+| **Salir del Juego** | `ESC` |
+
+---
+
+## 🖱️ Interacción con el Mouse
+El juego es totalmente compatible con el ratón para una navegación fluida:
+
+* **Acción:** Haz clic izquierdo sobre los botones del menú.
+* **Indicador:** El cursor cambiará automáticamente a una **"manita" (`Cursor.HAND`)** al posicionarte sobre cualquier botón interactivo, facilitando la identificación de las áreas clicables.
 
 *Nota: Para asegurar una respuesta inmediata, el `Canvas` solicita el foco al iniciar la aplicación mediante `canvas.requestFocus()`. Si el juego no responde, simplemente haz clic dentro de la ventana de juego.*
 
