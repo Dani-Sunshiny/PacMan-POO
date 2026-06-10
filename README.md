@@ -159,6 +159,9 @@ Si encuentras dificultades al ejecutar el juego, revisa esta guía rápida:
 ### 1. El teclado no responde
 Si al presionar las teclas el juego no se mueve, es probable que el `Canvas` haya perdido el **foco**.
 * **Solución:** Hemos implementado `canvas.requestFocus()` al iniciar. Si aún falla, asegúrate de que tu ventana principal esté activa al hacer clic sobre ella.
+### 1. El mouse no reacciona al primer clic
+Si intentas presionar un botón con el mouse y no ocurre nada, es posible que el Canvas esté en proceso de recuperar el foco de la ventana.
+* **Solución:** Si el primer clic no genera acción, espera dos segundos para permitir que la interfaz sincronice el foco y vuelve a presionar. Este pequeño margen asegura que el juego procese el evento de clic correctamente una vez que el componente esté activo
 
 ### 2. Error en la compilación de JavaFX
 Si obtienes errores de tipo `JavaFX runtime components are missing`:
