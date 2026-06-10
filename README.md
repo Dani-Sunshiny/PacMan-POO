@@ -61,8 +61,8 @@ Para una mejor experiencia, el juego permite el uso de múltiples esquemas de co
 | Acción | Tecla |
 | :--- | :--- |
 | **Pausar Juego** | `SPACE` |
-| **Reanudar Juego** | `CAPS LOCK` |
-| **Reiniciar Partida** | `BACKSPACE` |
+| **Reanudar Juego** | `CAPS LOCK(Blog Mayus)` |
+| **Reiniciar Partida** | `BACKSPACE(Borrar)` |
 | **Volver al Menú** | `CTRL` |
 | **Avanzar de Nivel** | `ENTER` |
 | **Salir del Juego** | `ESC` |
