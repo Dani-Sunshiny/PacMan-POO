@@ -31,6 +31,15 @@ if (now - ultimaEjecucion > VELOCIDAD_JUEGO * 1_000_000) {
 
 * **Renderizado por Capas:** Dibujado eficiente en `Canvas` utilizando un sistema de capas para objetos y personajes.
 
+* ⚡ Arquitectura de Concurrencia (Multithreading)
+Para garantizar un rendimiento de 60 FPS sin interrupciones, hemos desacoplado la lógica pesada del hilo principal de la interfaz:
+* **Hilos de Trabajo (Worker Threads):**
+    * **Velocidad de Fantasmas:** Calculan sus velocidades de forma independiente.
+    * **Velocidad de PACMAN:** Maneja su velocidad de forma independiente, a las demás identidades y al dibujo.
+    * **Gestor de Audio:** Reproduce sonidos sin bloquear la ejecución.
+    * **Procesamiento de Entidades:** Crea de power-ups y pellets asíncronamente.
+    * **Sincronización:** Con los potenciadores crea un tiempo especifico para cada uno cuando es consumido.
+
 ---
 ## 🏗️ Arquitectura
 El proyecto sigue el patrón **MVC**, lo que permite escalar el juego sin que el código se vuelva un caos:
